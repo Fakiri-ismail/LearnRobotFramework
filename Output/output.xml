@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.10.12 on linux)" generated="2025-02-09T21:52:36.711778" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="/home/ismail/PycharmProjects/LearnRobotFramework/Tests">
+<suite id="s1-s1" name="TestCase1" source="/home/ismail/PycharmProjects/LearnRobotFramework/Tests/TestCase1.robot">
+<test id="s1-s1-t1" name="LOG MESSAGE" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-09T21:52:36.729423" level="INFO">Hello, this is the firt robot framework test</msg>
+<arg>Hello, this is the firt robot framework test</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-09T21:52:36.729306" elapsed="0.000163"/>
+</kw>
+<tag>impo</tag>
+<status status="PASS" start="2025-02-09T21:52:36.728728" elapsed="0.000870"/>
+</test>
+<doc>This is my first test case</doc>
+<status status="PASS" start="2025-02-09T21:52:36.723984" elapsed="0.005890"/>
+</suite>
+<suite id="s1-s2" name="TestSuite1" source="/home/ismail/PycharmProjects/LearnRobotFramework/Tests/TestSuite1.robot">
+<test id="s1-s2-t1" name="Log Second Message" line="8">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-09T21:52:36.731375" level="INFO">second message</msg>
+<arg>second message</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-09T21:52:36.731219" elapsed="0.000197"/>
+</kw>
+<tag>impo</tag>
+<status status="PASS" start="2025-02-09T21:52:36.730938" elapsed="0.000608"/>
+</test>
+<doc>This is a test suite</doc>
+<status status="PASS" start="2025-02-09T21:52:36.730158" elapsed="0.001666"/>
+</suite>
+<status status="PASS" start="2025-02-09T21:52:36.712393" elapsed="0.019921"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">impo</stat>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="2" fail="0" skip="0">Tests</stat>
+<stat name="TestCase1" id="s1-s1" pass="1" fail="0" skip="0">Tests.TestCase1</stat>
+<stat name="TestSuite1" id="s1-s2" pass="1" fail="0" skip="0">Tests.TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
