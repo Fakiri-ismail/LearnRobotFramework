@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    Learn robotFramework : This is my first robotFramework script
-Resource    ../../Resources/00-logMessage.resource
+Resource    ../../Resources/00-log-messages.resource
 
 *** Variables ***
 ${var1}     my first
