@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource    ../../Resources/01-anime.resource
-Test Setup    Open DexScreener
+Test Setup    Open AnimeRco
 
 *** Test Cases ***
 Test1
