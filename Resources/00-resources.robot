@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation   This is the resources file
+Documentation   This is the intriduction resources file
 
 *** Variables ***
 ${my_first_name}  Ismail

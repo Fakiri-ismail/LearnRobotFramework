@@ -1,7 +1,6 @@
 *** Settings ***
-Documentation    This is my first test case
-Library    OperatingSystem
-Resource    ../Resources/resources.robot
+Documentation    Learn robotFramework : This is my first robotFramework script
+Resource    ../../Resources/00-resources.robot
 
 *** Variables ***
 ${var1}     my first
@@ -11,16 +10,16 @@ ${var1}     my first
 *** Keywords ***
 Hello
     [Arguments]    ${arg1}
-    log to console    ${\n}Hello, this is ${arg1} test case
+    log to console    ${\n}Hello,
+    Log My Full Name
 
 *** Test Cases ***
-LOG MESSAGE
-    [Documentation]    Learn robot framework
+LOG MESSAGES
+    [Documentation]    This is my first test case
     [Tags]    f1
     Hello   ${var1}
-    Log My Full Name
     log to console    Second element in the list is : ${list}[1]
     FOR    ${item}  IN  @{list}
-        log to console    ${item}
+        log to console    - ${item}
     END
     log to console    First element in the dict is : ${dict}[a]
