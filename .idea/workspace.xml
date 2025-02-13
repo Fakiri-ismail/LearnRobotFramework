@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92909e1e-a1bc-4989-ae19-dd31969a0d5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Resources/01-anime.resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/01-Web/AnimeRco.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/resources.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/00-resources.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/00-Introduction/TestCase1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/00-Introduction/TestCase1.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/00-Introduction/TestSuite1.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/00-resources.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/00-log-messages.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/00-Introduction/TestCase1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/00-Introduction/LogMessages.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

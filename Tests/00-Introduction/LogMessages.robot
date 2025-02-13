@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    Learn robotFramework : This is my first robotFramework script
-Resource    ../../Resources/00-resources.robot
+Resource    ../../Resources/00-logMessage.resource
 
 *** Variables ***
 ${var1}     my first
@@ -16,7 +16,7 @@ Hello
 *** Test Cases ***
 LOG MESSAGES
     [Documentation]    This is my first test case
-    [Tags]    f1
+    [Tags]    t1
     Hello   ${var1}
     log to console    Second element in the list is : ${list}[1]
     FOR    ${item}  IN  @{list}
