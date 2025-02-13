@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92909e1e-a1bc-4989-ae19-dd31969a0d5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/resources.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/01-Web/Selenium.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/02-RestAPI/Rest.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TestCase1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestCase1.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestCase1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/00-Introduction/TestCase1.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestSuite1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/00-Introduction/TestSuite1.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fakiri-ismail&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Fakiri-ismail/LearnRobotFramework.git&quot;,
+    &quot;accountId&quot;: &quot;c23af70b-aa4f-4d6a-9056-bb4f20ec30eb&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -28,6 +42,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
@@ -35,7 +50,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tets" />
+      <recent name="$PROJECT_DIR$/Tests/01-Web" />
+      <recent name="$PROJECT_DIR$/Tests/02-RestAPI" />
+      <recent name="$PROJECT_DIR$/Tests/00-Introduction" />
+      <recent name="$PROJECT_DIR$/Resources" />
+      <recent name="$PROJECT_DIR$/Tests/Web" />
     </key>
   </component>
   <component name="SharedIndexes">
