@@ -2,13 +2,13 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${url}    https://dexscreener.com/solana/
+${url}    https://web.animerco.org/
 ${browser}    gc
-${alias}    dexscreener
+${alias}    anime
 
 *** Keywords ***
-Open DexScreener
+Open AnimeRco
     open browser    ${url}    ${browser}    ${alias}
 
-Close DexScreener
+Close AnimeRco
     close browser
